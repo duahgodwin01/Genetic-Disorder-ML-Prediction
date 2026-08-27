@@ -1,10 +1,16 @@
 # Genetic Disorder Prediction using Machine Learning
 
-Predicting a patient's genetic disorder inheritance category, Mitochondrial, Single Gene, or Multifactorial - from routine clinical and family history data. The goal is a triage tool that narrows the focus of genetic testing, not a replacement for testing itself.
+Predicting a patient's genetic disorder inheritance category - Mitochondrial, Single Gene, or Multifactorial - from routine clinical and family history data. The goal is a triage tool that narrows the focus of genetic testing, not a replacement for testing itself.
 
-**Team:** Godwin Gyamfi Duah, Ujjwal Khadka
+**Team:** **Godwin Gyamfi Duah**, Ujjwal Khadka
 
-**Course:** CISC 520-50-B, Data Engineering and Mining, Harrisburg University of Science & Technology (2026)
+**Course:** CISC 520-50-B, Data Engineering and Mining, 
+
+**Institution:** Harrisburg University of Science and Technology 
+
+**Supervisor:** Ki Lee, PhD 
+
+**Date:** August 2026
 
 ## Overview
 
