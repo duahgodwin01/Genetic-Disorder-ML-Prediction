@@ -4,7 +4,7 @@ Predicting a patient's genetic disorder inheritance category - Mitochondrial, Si
 
 **Team:** **Godwin Gyamfi Duah**, Ujjwal Khadka
 
-**Course:** CISC 520-50-B, Data Engineering and Mining, 
+**Course:** CISC 520-50-B - Data Engineering and Mining
 
 **Institution:** Harrisburg University of Science and Technology 
 
