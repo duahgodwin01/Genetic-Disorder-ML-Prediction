@@ -1,6 +1,6 @@
 # Genetic Disorder Prediction using Machine Learning
 
-Predicting a patient's genetic disorder inheritance category, Mitochondrial, Single Gene, or Multifactorial- from routine clinical and family history data. The goal is a triage tool that narrows where genetic testing should be targeted, not a replacement for testing itself.
+Predicting a patient's genetic disorder inheritance category, Mitochondrial, Single Gene, or Multifactorial - from routine clinical and family history data. The goal is a triage tool that narrows the focus of genetic testing, not a replacement for testing itself.
 
 **Team:** Godwin Gyamfi Duah, Ujjwal Khadka
 
@@ -10,7 +10,7 @@ Predicting a patient's genetic disorder inheritance category, Mitochondrial, Sin
 
 Genetic diseases are a massive health burden worldwide, and delayed diagnosis is a common clinical problem. More than 140 million infants are born every year, and over ten million suffer from a significant birth defect of genetic or partially genetic origin, many of which are detected late (Rahman et al., 2022). Diagnosis is difficult because rare disorders can mimic the symptoms of more common ones, and genetic testing to confirm a diagnosis is costly and not available everywhere.
 
-Machine learning has approached this problem along two lines. One works directly from genome sequencing data. Chen et al. (2025) review this literature, covering variant calling, pathogenicity prediction, and splicing analysis. The other, more accessible line uses routinely collected patient medical history instead of sequence data. Rahman et al. (2022) argue that sequencing-based approaches, though powerful, are constrained by cost and tend to overlook clinical parameters such as abortion history and blood cell counts. Working from patient history alone, they reported 86.6% test accuracy on a binary mitochondrial versus multifactorial task using a support vector machine. Ghazal et al. (2022) applied support vector machines and k-nearest neighbors to a smaller multifactorial subset and reported 92.5% test accuracy across three disease subclasses.
+Machine learning has approached this problem along two lines. One works directly from genome sequencing data. Chen et al. (2025) review this literature, covering variant calling, pathogenicity prediction, and splicing analysis. The other, more accessible line uses routinely collected patient medical history instead of sequence data. Rahman et al. (2022) argue that sequencing-based approaches, though powerful, are constrained by cost and tend to overlook clinical parameters such as abortion history and blood cell counts. Working from patient history alone, they reported 86.6% test accuracy on a binary mitochondrial-versus-multifactorial task using a support vector machine. Ghazal et al. (2022) applied support vector machines and k-nearest neighbors to a smaller multifactorial subset and reported 92.5% test accuracy across three disease subclasses.
 
 Using the Of Genomes and Genetics dataset (Arya, 2021), this project follows that second line of work, predicting which of three inheritance categories a patient's disorder belongs to from 37 clinical, demographic, and family history features.
 
@@ -88,7 +88,7 @@ This project applied Random Forest, with Logistic Regression and XGBoost as comp
 
 Two findings go beyond what the exploratory phase established. First, symptom presentation and blood cell counts outrank family genetic history as predictors in this dataset, reversing the original hypothesis and suggesting that clinical presentation carries more classifiable signal than recorded inheritance indicators do. Second, the models discriminate minority classes considerably better than their recall numbers suggest, and the shortfall comes from decision thresholds rather than from what the models actually learned.
 
-The evaluation strategy was also revised mid-project. Weighted F1, proposed back in Deliverable 2, proved to inflate toward majority class performance for the same reason raw accuracy had already been rejected, and reporting it alone would have concealed the fact that Random Forest misses roughly two-thirds of multifactorial patients.
+The evaluation strategy was also revised mid-project. Weighted F1, proposed back in Deliverable 2, proved to inflate toward majority-class performance for the same reason raw accuracy had already been rejected, and reporting it alone would have concealed the fact that Random Forest misses roughly two-thirds of multifactorial patients.
 
 ## Repository Structure
 
