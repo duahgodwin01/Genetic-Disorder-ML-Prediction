@@ -86,7 +86,7 @@ Several limitations qualify these conclusions. Listwise deletion of the 22.3% of
 
 ## A Note on AI Tool Use
 
-AI tools were used to assist with code generation and initial drafts of the presentation slides, with all outputs reviewed, verified, and edited by the team. Literature review and analytical write-up were done independently.
+As part of the course requirements, the use of AI tools was encouraged. AI tools were used to assist with code generation and initial drafts of the presentation slides. All outputs were reviewed, verified, and edited by the team. Literature review and analytical write-up were done independently.
 
 ## Conclusion
 
